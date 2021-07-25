@@ -40,7 +40,7 @@ body {
 }
 
 .mission-img {
-  background-image: url('../images/img-mission-background.jpeg');
+  background-image: url(../images/img-mission-background.jpeg);
   background-repeat: no-repeat;
   height: 700px;
   width: 1200px;
@@ -68,4 +68,30 @@ body {
   width: 1000px;
   align-content: center;
   text-align: center;
+}
+
+.tea-img-container {
+  display: block;
+  margin: 0px;
+  white-space: nowrap;
+}
+.tea-img-container div {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.tea-img-container p {
+  position: relative;
+  width: 100%;
+  top: 12px;
+  z-index: 2;
+  text-align: center;
+  /* left: 15px; */
+}
+
+.tea-section-img {
+  height: 200px;
+  width: 300px;
 }
